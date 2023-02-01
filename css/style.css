@@ -70,12 +70,45 @@ body {
 
 .main {
   height: calc(100% - 5rem);
+  padding: 8rem 0;
 }
 .main .title {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+.main .form {
+  width: 50%;
+  margin: 0 auto;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  border: 1px solid #0f0f0f;
+  border-radius: 1rem;
+  box-shadow: 0 0 10px rgba(200, 200, 200, 0.8);
+}
+.main .form-field {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.main .form-input {
+  flex: content;
+  max-width: 75%;
+}
+.main .form-actions {
+  margin-left: auto;
+}
+.main .form-actions .btn {
+  margin-left: 1rem;
+  padding: 0.5rem 2rem;
+  outline: none;
+  border: none;
+  border-radius: 1.5rem;
+  background-color: #029651;
+  color: #f0f0f0;
 }
 
 .footer {
